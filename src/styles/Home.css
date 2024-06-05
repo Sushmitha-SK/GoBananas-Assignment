@@ -1,0 +1,44 @@
+.appBar {
+    background-color: "#fff";
+    font-family: 'Noto Sans';
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/free-vector/modern-flowing-blue-wave-banner-white-background_1035-18960.jpg?t=st=1717597411~exp=1717601011~hmac=e92ea9e54997a9cebbb685b378091c4b8edc9ed1f9d3c2159813edabf58648dd&w=1380');
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 4rem;
+}
+
+.blogsContainer {
+    padding-top: 16px;
+}
+
+.listItem {
+    font-family: 'Noto Sans';
+    margin: 2% 0;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.listItem:hover {
+    transform: scale(1.05);
+    background-color: #f5f5f5;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .hero {
+        height: 300px;
+        font-size: 3em;
+    }
+}
