@@ -76,7 +76,9 @@ const Posts = () => {
 
 
                 {loading ? (
-                    <CircularProgress />
+                    <div className="centered-spinner">
+                        <CircularProgress />
+                    </div>
                 ) : (
                     <>
                         {currentPosts.length === 0 && (
