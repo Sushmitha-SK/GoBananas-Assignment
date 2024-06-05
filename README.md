@@ -4,7 +4,7 @@ This is a Simple React Application with JSONPlaceholder API Integration and Mate
 
 ## Live Demo
 
-Check out the live demo of application at: http://localhost:3000/
+Check out the live demo of application at: https://gobananas-assignment-psi.vercel.app/
 
 ## Features
 
